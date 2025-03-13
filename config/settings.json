@@ -1,0 +1,37 @@
+{
+    "theme": "dark",
+    "remember_workspace": true,
+    "autosave_interval": 5,
+    "preview_quality": "high",
+    "cpu_limit": 75,
+    "ram_limit": 2048,
+    "recent_files": [],
+    "export_format": "tiff",
+    "export_quality": 95,
+    "language": "en",
+    "show_tooltips": true,
+    "enable_gpu_acceleration": true,
+    "custom_workspace": {},
+    "modules": {
+        "dng_stacker": {
+            "default_methods": [
+                "Mean",
+                "Maximum"
+            ],
+            "sigma_clip_value": 2.0
+        },
+        "photo_desqueezer": {
+            "desqueeze_factor": 1.6
+        },
+        "gif_creator": {
+            "default_fps": 24,
+            "loop_enabled": true
+        },
+        "video_averager": {
+            "default_format": "tiff"
+        },
+        "video_smover": {
+            "smoothing_factor": 0.5
+        }
+    }
+}
